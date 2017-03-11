@@ -20,3 +20,10 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function deviceIn() {
+	inf = 'Aleksandra J' + '\n' +
+		'cwieczenia : ' + device.name + '\n';
+	
+	navigator.notification.alert(inf);
+}
